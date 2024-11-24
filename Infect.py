@@ -12,7 +12,7 @@ TEXT_COLOR = pygame.Color(255, 255, 255)
 
 class MainGame:
     window = None
-    gameNmae = "Infect"
+    gameName = "Infect"
     version = "V1.1"
     my_Ball = None
 
@@ -91,7 +91,7 @@ class MainGame:
         # 初始化Ball
         MainGame.my_Ball = Ball(SCREEN_WEIGTHT / 2, SCREEN_HEIGHT / 2)
         # 设置窗口的标题，即游戏名称
-        pygame.display.set_caption(MainGame.gameNmae + "   " + MainGame.version)
+        pygame.display.set_caption(MainGame.gameName + "   " + MainGame.version)
 
     def getTextSurface(self):
 
